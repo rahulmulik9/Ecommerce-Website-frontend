@@ -9,13 +9,14 @@ import {
 
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Avatar, Button, Menu, MenuItem } from "@mui/material";
-import { navigation } from "../../../config/navigationMenu";
+import { navigation } from "../../../Config/navigationMenu";
 import AuthModal from "../Auth/AuthModal";
 import { useDispatch, useSelector } from "react-redux";
 import { deepPurple } from "@mui/material/colors";
 import { getUser, logout } from "../../../Redux/Auth/Action";
 import { getCart } from "../../../Redux/Customers/Cart/Action";
-
+//intial data for Navigation got from here https://tailwindui.com/components/ecommerce/components/store-navigation 
+//tailwin css navigation bar for store naviagation 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }

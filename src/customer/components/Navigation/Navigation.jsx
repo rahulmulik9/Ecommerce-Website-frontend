@@ -268,7 +268,7 @@ export default function Navigation() {
                   <span className="sr-only">Your Company</span>
                   <img
                     src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
-                    alt="Shopwithzosh"
+                    alt="Shop With Mulik"
                     className="h-8 w-8 mr-2"
                   />
                 </Link>
@@ -277,6 +277,7 @@ export default function Navigation() {
               {/* Flyout menus */}
               <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch z-10">
                 <div className="flex h-full space-x-8">
+                  {/* reading data from NaviagtionData */}
                   {navigation.categories.map((category) => (
                     <Popover key={category.name} className="flex">
                       {({ open, close }) => (

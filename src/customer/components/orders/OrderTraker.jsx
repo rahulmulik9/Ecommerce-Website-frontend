@@ -21,7 +21,6 @@ export default function OrderTraker({activeStep}) {
     
   return (
     <Box sx={{ width: '100%' }} >
-      
       <Stepper activeStep={activeStep} alternativeLabel>
         {steps.map((label) => (
           <Step key={label}>

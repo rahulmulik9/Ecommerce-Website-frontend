@@ -5,6 +5,7 @@ import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import { useDispatch, useSelector } from "react-redux";
 import { getOrderHistory } from "../../../Redux/Customers/Order/Action";
 
+//defined object for order status 
 const orderStatus = [
   { label: "On The Way", value: "onTheWay" },
   { label: "Delivered", value: "delevered" },
